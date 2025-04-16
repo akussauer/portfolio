@@ -8,7 +8,7 @@ st.set_page_config(
 )
 
 ## Main Page title
-st.image("assets\headshot.JPEG", width=200)
+st.image("StreamLit Work Portfolio/assets/headshot.JPEG", width=200)
 st.title("Welcome to My Portfolio")
 # --- Projects ---
 st.markdown("### About Me")
