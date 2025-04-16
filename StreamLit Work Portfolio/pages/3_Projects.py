@@ -42,7 +42,7 @@ boxing_3 = [
 st.markdown("\n".join([f"- {skill}" for skill in boxing_3]))
 
 st.write(" ")
-with open("assets/Longitudinal_boxing_KO_Analysis.pbix", "rb") as file:
+with open("StreamLit Work Portfolio/assets/Longitudinal_boxing_KO_Analysis.pbix", "rb") as file:
     st.download_button(
         label="📄 Download Boxing Project",
         data=file,
@@ -86,7 +86,7 @@ st.markdown("\n".join([f"- {skill}" for skill in DF_3]))
 
 st.write(" ")
 # This will need to be chnaged to the correct file path
-with open("assets\Database_Validation_Example.pdf", "rb") as file:
+with open("StreamLit Work Portfolio/assets/Database_Validation_Example.pdf", "rb") as file:
     st.download_button(
         label="📄 Download Aquatics Project Summary",
         data=file,
@@ -135,7 +135,7 @@ st.markdown("\n".join([f"- {skill}" for skill in prediction_3]))
 
 st.write(" ")
 
-with open("assets\Performance_Prediction_of_the_Mens_100m_Freestyle.pdf", "rb") as file:
+with open("StreamLit Work Portfolio/assets/Performance_Prediction_of_the_Mens_100m_Freestyle.pdf", "rb") as file:
     st.download_button(
         label="📄 Download My Proposal",
         data=file,
