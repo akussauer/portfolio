@@ -9,6 +9,7 @@ st.set_page_config(
 # --- Continued Education ---
 st.header("Continued Education")
 st.divider()
+st.divider()
 
 st.markdown("##### National Strength & Conditioning Association - National Conference 2023")
 st.write("**Location:** Las Vegas, NV, USA")
