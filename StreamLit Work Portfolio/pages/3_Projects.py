@@ -143,11 +143,35 @@ st.divider()
 
 st.markdown("### 🚴‍♂️ Exacting Trends and Selecting Kit within Elite Male and Female Track Cyclists in the Team Sprint Event")
 st.write("""
-In collaboration with Team GB Track Cycling, this retrospective performance analysis investigated how kit configuration, cadence, and power metrics influenced time outcomes in the elite team sprint event. Using over 3,700 training and race bouts from 19 athletes, the study employed descriptive statistics and regression modeling to uncover performance trends across the three distinct sprint positions.
-Key findings revealed that double disk wheels consistently improved performance across all positions, despite traditional concerns over rolling resistance. Regression analysis showed that peak power had a strong negative correlation with performance time, particularly in early-position athletes, while cadence displayed a parabolic relationship suggesting an optimal range for each rider. Split time analysis identified early- and mid-effort segments as strong predictors of total performance, providing actionable benchmarks for targeted training.
-This analysis not only informed individualized gear selection and pacing strategies but also emphasized the value of clean, well-structured data and the nuanced interpretation of non-linear performance models.
-""")
-
+This case study focused on performance modeling for the men’s team sprint squad in elite track cycling, using regression techniques to quantify the effect of kit configurations on performance. The aim was to evaluate how changes in gear selection and cadence influence individual rider splits, enabling evidence-based kit selection.""")
+st.markdown("### 4 Main Steps")
+st.markdown("#### 1. Data Preparation & Descriptive Statistics")
+PA_Cycling_1 = [
+    "Medium-large dataset was pivoted assessed for errors (17,000 x 24 -> 4000 x 44).", 
+    "Dataset manipulation and filtering to prepare data for further statistical analysis",
+    "Descrisptive statistics were generated for kit selection based on athlete position and distance.",
+    "Statistical procedures are implemented using Python and Scikit-learn.",
+]
+st.markdown("\n".join([f"- {skill}" for skill in PA_Cycling_1]))
+st.write(" ")
+st.markdown("#### 2. Regression Modeling")
+PA_Cycling_2 = [
+    "Regression was performed and fit using either linear, quadratic, or logerithmic calulations.",
+    "Separate models built for each lap to reflect position-specific effects (e.g., P1 vs. P2).",
+    "Linear regression was used to correlate split distances with race time to inform training benchmark selection.",
+    "Model performance evaluated via adjusted R² and AIC (Akaike Information Criterion).",
+    "Results visualized using Seaborn and Matplotlib.",
+]
+st.markdown("\n".join([f"- {skill}" for skill in PA_Cycling_2]))
+st.write(" ")
+st.markdown("#### 3. Insights & Recommendations")
+PA_Cycling_3 = [
+    "Descriptive statistics indicated trends associated with specific kit combinations, varying by lap/rider.",
+    "Understanding the correlational strength between split distances, especially those that represent the result of a good acceleration phase, provide practical benchmark data for training.",
+    "Bespoke program build for evaluating cadence using quadratic regression and custom visuals.",
+    "The project demonstrated a repeatable, data-driven process for evaluating equipment interventions in elite sport contexts.",
+]
+st.markdown("\n".join([f"- {skill}" for skill in PA_Cycling_3]))
 st.write(" ")
 st.divider()
 
