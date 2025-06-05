@@ -141,10 +141,11 @@ with open("StreamLit Work Portfolio/assets/Performance_Prediction_of_the_Mens_10
 
 st.divider()
 
-st.markdown("### 🚴‍♂️ Analysis of Variables Influencing Track Cycling Start Performance")
+st.markdown("### 🚴‍♂️ Exacting Trends and Selecting Kit within Elite Male and Female Track Cyclists in the Team Sprint Event")
 st.write("""
-In partnership with GB Track Cycling, this project analyzes four years of data including 10 m, quarter-lap, and half-lap split times, as well as power (peak and average), cadence, and speed. 
-The goal is to gain insights into how these variables influence start performance.
+In collaboration with Team GB Track Cycling, this retrospective performance analysis investigated how kit configuration, cadence, and power metrics influenced time outcomes in the elite team sprint event. Using over 3,700 training and race bouts from 19 athletes, the study employed descriptive statistics and regression modeling to uncover performance trends across the three distinct sprint positions.
+Key findings revealed that double disk wheels consistently improved performance across all positions, despite traditional concerns over rolling resistance. Regression analysis showed that peak power had a strong negative correlation with performance time, particularly in early-position athletes, while cadence displayed a parabolic relationship suggesting an optimal range for each rider. Split time analysis identified early- and mid-effort segments as strong predictors of total performance, providing actionable benchmarks for targeted training.
+This analysis not only informed individualized gear selection and pacing strategies but also emphasized the value of clean, well-structured data and the nuanced interpretation of non-linear performance models.
 """)
 
 st.write(" ")
