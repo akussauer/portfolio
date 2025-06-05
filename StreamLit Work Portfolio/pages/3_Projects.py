@@ -144,7 +144,7 @@ st.divider()
 st.markdown("### 🚴‍♂️ Exacting Trends and Selecting Kit within Elite Male and Female Track Cyclists in the Team Sprint Event")
 st.write("""
 This case study focused on performance modeling for the men’s team sprint squad in elite track cycling, using regression techniques to quantify the effect of kit configurations on performance. The aim was to evaluate how changes in gear selection and cadence influence individual rider splits, enabling evidence-based kit selection.""")
-st.markdown("### 4 Main Steps")
+st.markdown("### 3 Main Steps")
 st.markdown("#### 1. Data Preparation & Descriptive Statistics")
 PA_Cycling_1 = [
     "Medium-large dataset was pivoted assessed for errors (17,000 x 24 -> 4000 x 44).", 
@@ -173,6 +173,13 @@ PA_Cycling_3 = [
 ]
 st.markdown("\n".join([f"- {skill}" for skill in PA_Cycling_3]))
 st.write(" ")
+with open("StreamLit Work Portfolio/assets/Exacting_Trends_and_Selecting_Kit within_Elite_Male_and_Female_Track_Cyclists.pdf", "rb") as file:
+    st.download_button(
+        label="📄 Download My Case Study",
+        data=file,
+        file_name="Exacting_Trends_and_Selecting_Kit within_Elite_Male_and_Female_Track_Cyclists.pdf",
+        mime="application/pdf"
+    )
 st.divider()
 
 st.markdown("### 🚴‍♂️ What is the Optimal Starting Technique in Track Cycling?")
