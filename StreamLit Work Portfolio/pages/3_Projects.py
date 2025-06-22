@@ -134,7 +134,7 @@ st.divider()
 st.markdown("### 🚴‍♂️ What is the Optimal Starting Technique in Track Cycling?")
 st.write("""
 This project, also in collaboration with GB Track Cycling, explores optimal starting techniques using crank data and 2D marker tracking to identify key performance determinants.
-The aim is to offer evidence-based recommendations for athletes and coaches. The results of this research are currently under a non-disclosure agreement, so results can not be included for public viewing.
+The aim is to offer evidence-based recommendations for athletes and coaches. The results of this research are currently under a non-disclosure agreement, so results are not be included for public viewing.
 """)
 
 st.write(" ")
