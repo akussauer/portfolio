@@ -130,6 +130,12 @@ with open("StreamLit Work Portfolio/assets/Exacting_Trends_and_Selecting_Kit wit
         file_name="Exacting_Trends_and_Selecting_Kit within_Elite_Male_and_Female_Track_Cyclists.pdf",
         mime="application/pdf"
     )
+st.divider()
+st.markdown("### 🚴‍♂️ What is the Optimal Starting Technique in Track Cycling?")
+st.write("""
+This project, also in collaboration with GB Track Cycling, explores optimal starting techniques using crank data and 2D marker tracking to identify key performance determinants.
+The aim is to offer evidence-based recommendations for athletes and coaches. The results of this research are currently under a non-disclosure agreement, so results can not be included for public viewing.
+""")
 
 st.write(" ")
 st.write(" ")
@@ -178,11 +184,3 @@ with open("StreamLit Work Portfolio/assets/Performance_Prediction_of_the_Mens_10
         file_name="Performance_Prediction_Proposal.pdf",
         mime="application/pdf"
     )
-
-st.divider()
-
-st.markdown("### 🚴‍♂️ What is the Optimal Starting Technique in Track Cycling?")
-st.write("""
-This project, also in collaboration with GB Track Cycling, explores optimal starting techniques using crank data and 2D marker tracking to identify key performance determinants.
-The aim is to offer evidence-based recommendations for athletes and coaches.
-""")
